@@ -3,6 +3,8 @@ Handy Do Not Disturb-related functionality for [Tasker](https://play.google.com/
 
 
 ## Setup
+
+### Standard
 Setting up this project is identical to any other Tasker project.
 1. Install and open Tasker
 1. Get the [`Do_Not_Disturb.prj.xml`](./Do_Not_Disturb.prj.xml) file from this repo onto your phone (probably by downloading it to your computer and transferring it to your phone's internal storage over USB)
@@ -10,6 +12,9 @@ Setting up this project is identical to any other Tasker project.
 1. Choose `Import`
 1. Navigate to and select the project XML file
 1. Customize and enjoy!
+
+### TaskerNet
+This project is available on TaskerNet! On your phone, go to https://taskernet.com/shares/?user=AS35m8k80GaDd5dXaSh1zON%2FjeGpbCvKMUpxEUgWrnJlmyY98C1z2BEwlM1TmxR2BoGhlXGYlNWh&id=Project%3ADo+Not+Disturb, hit the green `Import` button, and confirm. Customize and enjoy!
 
 
 ## Functions
