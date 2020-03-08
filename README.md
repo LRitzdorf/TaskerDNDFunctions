@@ -1,7 +1,15 @@
 # TaskerDNDFunctions
 Do Not Disturb-related functionality for Tasker
 
-__:warning: NOTE: This repo is currently empty. It will contain a Tasker profile XML file very soon.__
+
+## Setup
+Setting up this project is identical to any other Tasker project.
+1. Install and open Tasker
+1. Get the [`Do_Not_Disturb.prj.xml`](./Do_Not_Disturb.prj.xml) file from this repo onto your phone (probably by downloading it to your computer and transferring it to your phone's internal storage over USB)
+1. Long-press any tab on Tasker's bottom bar
+1. Choose `Import`
+1. Navigate to and select the project XML file
+1. Customize and enjoy!
 
 
 ## Functions
