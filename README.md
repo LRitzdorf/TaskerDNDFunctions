@@ -25,10 +25,13 @@ These are the various Do Not Disturb (DND) -related functions that this Tasker p
 ### Custom DND (Profile)
 Useful mainly as a template, to duplicate and customize. Contains several example triggers, including location (ideal for work or school), other active profiles (to prevent DND activation with headphones, for example), time period (9AM - 5PM by default), and day of week (Monday - Friday). It will deactivate if any of these conditions becomes false - for example, you leave for lunch - and reactivate when the condition becomes true again.
 
+### Calendar DND (Profile)
+Activates DND during calendar events whose description contains a trigger phrase. The trigger pattern is actually a regular expression, read in from the `%dndCalendarTrigger` variable, which __must first be set by the user__. (If you're not familiar with "regex," don't worry - unless you have some special characters in your trigger, just setting `%dndCalendarTrigger` to that phrase should work. If you want to learn more, <https://regex101.com> is an excellent resource!)
+
 ### Reload DND (Task)
 Refreshes the specified profiles. For example: you can manually turn DND off (by tapping the icon in Quick Settings, usually) to play a video for a friend, but then the Custom DND function is deactivated. Reload DND reactivates Custom DND, so you can still use it after manually turning off DND mode.
 
-The Reload DND task reads a list of tasks to reload from the `%dndTasks` variable. By default, this is set to `Custom DND,Calendar DND`, but can be edited to change which tasks are reloaded.
+The Reload DND task reads a list of tasks to reload from the `%dndTasks` variable. __This is not set by default__, but should be set to `Custom DND,Calendar DND` to work with the profiles that are present by default. This can be edited to change which tasks are reloaded as you add your own!
 
 #### :heavy_check_mark: Quick Tile Setup
 To use this function, it needs to be added to Android's Quick Settings for you to trigger - it will not trigger automatically.
