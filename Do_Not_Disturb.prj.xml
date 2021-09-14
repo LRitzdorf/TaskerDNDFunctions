@@ -1,37 +1,11 @@
 <TaskerData sr="" dvi="1" tv="5.13.6">
-	<Profile sr="prof42" ve="2">
-		<cdate>1631650886775</cdate>
-		<clp>true</clp>
-		<edate>1631652351598</edate>
-		<flags>8</flags>
-		<id>42</id>
-		<limit>true</limit>
-		<mid0>41</mid0>
-		<nme>Smartwatch Volume DND Toggle</nme>
-		<pc>Originally worked on Android 8 with Garmin Connect Mobile app. Does not seem to work on Android 11. Recommended only for users who like to play around with this sort of thing.</pc>
-		<Event sr="con0" ve="2">
-			<code>2085</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%lc_text
-Text
-The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">AudioService</Str>
-			<Str sr="arg2" ve="3">setStreamVolume caller=com.garmin.android.apps.connectmobile</Str>
-			<Int sr="arg3" val="0"/>
-		</Event>
-	</Profile>
-	<Profile sr="prof44" ve="2">
-		<cdate>1631650886783</cdate>
+	<Profile sr="prof39" ve="2">
+		<cdate>1631656938522</cdate>
 		<clp>true</clp>
 		<edate>1631652669753</edate>
-		<id>44</id>
+		<id>39</id>
 		<limit>true</limit>
-		<mid0>56</mid0>
+		<mid0>22</mid0>
 		<nme>Volume Key DND Toggle</nme>
 		<pc>Toggles Do Not Disturb when holding the volume keys.</pc>
 		<Event sr="con0" ve="2">
@@ -41,14 +15,14 @@ The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.a
 			<Str sr="arg1" ve="3">1</Str>
 		</Event>
 	</Profile>
-	<Profile sr="prof52" ve="2">
-		<cdate>1631651003002</cdate>
+	<Profile sr="prof40" ve="2">
+		<cdate>1631656938523</cdate>
 		<clp>true</clp>
-		<edate>1631652769269</edate>
-		<id>52</id>
+		<edate>1631657087943</edate>
+		<id>40</id>
 		<limit>true</limit>
-		<mid0>57</mid0>
-		<mid1>54</mid1>
+		<mid0>30</mid0>
+		<mid1>16</mid1>
 		<nme>Calendar DND</nme>
 		<pc>Activates Do Not Disturb for calendar events with a trigger phrase in the description.</pc>
 		<State sr="con0" ve="2">
@@ -60,14 +34,14 @@ The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.a
 			<Str sr="arg4" ve="3"/>
 		</State>
 	</Profile>
-	<Profile sr="prof53" ve="2">
-		<cdate>1631651003000</cdate>
+	<Profile sr="prof41" ve="2">
+		<cdate>1631656938525</cdate>
 		<clp>true</clp>
-		<edate>1631652668455</edate>
-		<id>53</id>
+		<edate>1631657087627</edate>
+		<id>41</id>
 		<limit>true</limit>
-		<mid0>57</mid0>
-		<mid1>54</mid1>
+		<mid0>30</mid0>
+		<mid1>16</mid1>
 		<nme>Custom DND</nme>
 		<pc>Do Not Disturb profile with a variety of triggers. Intended to be duplicated and changed for various use cases.</pc>
 		<Loc sr="con0">
@@ -101,11 +75,37 @@ The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.a
 			<wday4>6</wday4>
 		</Day>
 	</Profile>
+	<Profile sr="prof42" ve="2">
+		<cdate>1631656938526</cdate>
+		<clp>true</clp>
+		<edate>1631652351598</edate>
+		<flags>8</flags>
+		<id>42</id>
+		<limit>true</limit>
+		<mid0>37</mid0>
+		<nme>Smartwatch Volume DND Toggle</nme>
+		<pc>Originally worked on Android 8 with Garmin Connect Mobile app. Does not seem to work on Android 11. Recommended only for users who like to play around with this sort of thing.</pc>
+		<Event sr="con0" ve="2">
+			<code>2085</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%lc_text
+Text
+The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">AudioService</Str>
+			<Str sr="arg2" ve="3">setStreamVolume caller=com.garmin.android.apps.connectmobile</Str>
+			<Int sr="arg3" val="0"/>
+		</Event>
+	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1582932209041</cdate>
 		<name>Do Not Disturb</name>
-		<pids>44,42,53,52</pids>
-		<tids>37,57,54,55,41,58,56</tids>
+		<pids>42,41,39,40</pids>
+		<tids>38,17,30,37,16,22,13</tids>
 		<Share sr="Share">
 			<b>false</b>
 			<d>Handy Do Not Disturb-related functionality for Tasker. See this project's &lt;a href="https://github.com/LRitzdorf/TaskerDNDFunctions"&gt;GitHub repo&lt;/a&gt; for details and setup instructions.</d>
@@ -117,10 +117,10 @@ The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.a
 			<tint>-1</tint>
 		</Img>
 	</Project>
-	<Task sr="task37">
+	<Task sr="task13">
 		<cdate>1473817442794</cdate>
 		<edate>1631653451318</edate>
-		<id>37</id>
+		<id>13</id>
 		<nme>IsMusicPlaying</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -161,67 +161,10 @@ The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.a
 			<Str sr="arg4" ve="3"/>
 		</Action>
 	</Task>
-	<Task sr="task41">
-		<cdate>1583633562716</cdate>
-		<edate>1583644860064</edate>
-		<id>41</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">IsMusicPlaying</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%is_music_playing</Str>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%is_music_playing</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="7"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Toggle DND</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>38</code>
-		</Action>
-	</Task>
-	<Task sr="task54">
+	<Task sr="task16">
 		<cdate>1609199991481</cdate>
 		<edate>1631653266320</edate>
-		<id>54</id>
+		<id>16</id>
 		<nme>Clear Auto On State</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -231,10 +174,10 @@ The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.a
 			<Int sr="arg2" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task55">
+	<Task sr="task17">
 		<cdate>1552681481142</cdate>
 		<edate>1631652065449</edate>
-		<id>55</id>
+		<id>17</id>
 		<nme>Reload DND</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -297,10 +240,10 @@ The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.a
 			<tint>-1</tint>
 		</Img>
 	</Task>
-	<Task sr="task56">
+	<Task sr="task22">
 		<cdate>1581971129769</cdate>
 		<edate>1631653485025</edate>
-		<id>56</id>
+		<id>22</id>
 		<nme>Toggle DND</nme>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -415,10 +358,10 @@ Suppressed Effects
 			<code>38</code>
 		</Action>
 	</Task>
-	<Task sr="task57">
+	<Task sr="task30">
 		<cdate>1547754114515</cdate>
 		<edate>1631652603626</edate>
-		<id>57</id>
+		<id>30</id>
 		<nme>Do Not Disturb On</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -457,18 +400,95 @@ Suppressed Effects
 			</Bundle>
 		</Action>
 	</Task>
-	<Task sr="task58">
+	<Task sr="task37">
+		<cdate>1583633562716</cdate>
+		<edate>1583644860064</edate>
+		<id>37</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">IsMusicPlaying</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%is_music_playing</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%is_music_playing</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="7"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggle DND</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task38">
 		<cdate>1631653718733</cdate>
-		<edate>1631654122658</edate>
-		<id>58</id>
+		<edate>1631657070738</edate>
+		<id>38</id>
 		<nme>Setup</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Opening usage guide...</Str>
-			<Int sr="arg1" val="1"/>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%dndCalendarTrigger</Str>
+			<Str sr="arg1" ve="3">DND</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%dndTasks</Str>
+			<Str sr="arg1" ve="3">Calendar DND,Custom DND</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Variables set, opening usage guide</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>104</code>
 			<Str sr="arg0" ve="3">https://github.com/LRitzdorf/TaskerDNDFunctions/blob/master/README.md</Str>
 		</Action>
