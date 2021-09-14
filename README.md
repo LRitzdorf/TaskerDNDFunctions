@@ -31,7 +31,7 @@ Activates DND during calendar events whose description contains a trigger phrase
 ### Reload DND (Task)
 Refreshes the specified profiles. For example: you can manually turn DND off (by tapping the icon in Quick Settings, usually) to play a video for a friend, but then the Custom DND function is deactivated. Reload DND reactivates Custom DND, so you can still use it after manually turning off DND mode.
 
-The Reload DND task reads a list of tasks to reload from the `%dndTasks` variable. This is set to `Custom DND,Calendar DND`, to work with the profiles that are present by default, but can be edited to change which tasks are reloaded as you add your own!
+The Reload DND task reads a list of profiles to reload from the `%dndTasks` variable. This is set to `Custom DND,Calendar DND`, to work with the profiles that are present by default, but can be edited to change which profiles are reloaded as you add your own!
 
 #### :heavy_check_mark: Quick Tile Setup
 To use this function, it needs to be added to Android's Quick Settings for you to trigger - it will not trigger automatically.
@@ -40,11 +40,11 @@ To do this, go to `Settings > Preferences > Action [tab]`. Under `Quick Settings
 
 Open Quick Settings (swipe down from the top of your screen with two fingers) and hit the pencil icon (or whichever "edit" icon your Android version uses). Scroll down to the "Drag to add tiles" section. Tap and hold the `Reload DND` icon, and drag it up into your Quick Settings. Rearrange as desired.
 
-### Volume Button Toggle (Profile)
+### Volume Button DND Toggle (Profile)
 Toggles DND when you press and hold either volume button (customizable, see below) for one second (also customizable). Note that, due to a limitation of Tasker, this only works while the phone screen is on. Great for discreetly silencing your phone without having to take it out of a bag or pocket!
 
-### Smartwatch-Volume Toggle (Profile)
-Toggles DND when you hit either volume-adjustment button on your smartwatch (if music is not playing). An even better version of the volume-button toggle - you don't even have to be within reach of your phone! Default configuration works with Garmin devices, on *some* Android versions (11 is known not to work). Credit for music-playing detection to Reddit's [MuppetMaster42](https://www.reddit.com/user/MuppetMaster42/), via [this post](https://www.reddit.com/r/tasker/comments/52p6h6/how_to_check_if_music_is_playing_without_an/).
+### Smartwatch Volume DND Toggle (Profile)
+Toggles DND when you hit either volume-adjustment button on your smartwatch (if music is not playing). An even better version of the volume-button toggle - you don't even have to be within reach of your phone! Default configuration works with Garmin devices, on *some* Android versions (Android 11 is known __not__ to work). Credit for music-playing detection to Reddit's [MuppetMaster42](https://www.reddit.com/user/MuppetMaster42/), via [this post](https://www.reddit.com/r/tasker/comments/52p6h6/how_to_check_if_music_is_playing_without_an/).
 
 
 ## Parameters (please edit!)
