@@ -40,6 +40,13 @@ To do this, go to `Settings > Preferences > Action [tab]`. Under `Quick Settings
 
 Open Quick Settings (swipe down from the top of your screen with two fingers) and hit the pencil icon (or whichever "edit" icon your Android version uses). Scroll down to the "Drag to add tiles" section. Tap and hold the `Reload DND` icon, and drag it up into your Quick Settings. Rearrange as desired.
 
+**Status Indication:** On sufficiently new Android versions, the tile will appear "inactive" (not grayed out, but not highlighted) normally. When DND has been activated by Tasker, it will assume the "active" appearance (highlighted with the system accent color). These states do not affect the action performed when the tile is tapped, but should be useful as a quick indicator of the state that Tasker thinks DND should be in.
+
+### Calendar DND (Task)
+Activates DND based on properties of an active calendar event. By default, this trigger searches for the text `DND` in the event's description. (Actually, this uses regex - if you have more advanced filtering needs, don't hesitate to customize it!)
+
+For example, if you want to activate DND during a weekly meeting, just create a repeating event in Google Calendar with `DND` in the description somewhere. This profile will trigger when the event begins, and deactivate again when it ends.
+
 ### Volume Button DND Toggle (Profile)
 Toggles DND when you press and hold either volume button (customizable, see below) for one second (also customizable). Note that, due to a limitation of Tasker, this only works while the phone screen is on. Great for discreetly silencing your phone without having to take it out of a bag or pocket!
 
@@ -61,6 +68,9 @@ Note that __all__ profile triggers (on the left side under each profile) must be
 ### Reload DND (Quick Settings tile)
 - Quick Tile Icon: The icon that represents this task in Quick Settings. `Tasks > Reload DND > [reload icon at bottom center]`
 - Quick Tile Location: The Quick Settings tile can be moved around in your Quick Settings sheet. See the __Quick Tile Setup__ section, above, for relevant instructions.
+
+### Calendar DND
+- Calendar Entry: Properties of calendar entries for which DND should activate. Filter options are: event title, location, description, availability state, and the calendar in which the event exists. `Profiles > Calendar DND > [only trigger, half-shaded circle icon]`
 
 ### Volume Button DND Toggle
 - Trigger Buttons: Which volume buttons cause DND to be toggled. `Profiles > Either Volume DND Toggle > [bell icon trigger] > Types`
