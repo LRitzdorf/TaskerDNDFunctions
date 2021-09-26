@@ -85,18 +85,6 @@ with the system accent color). These states do not affect the action performed
 when the tile is tapped, but should be useful as a quick indicator of the state
 that Tasker thinks DND should be in.
 
-### Calendar DND (Task)
-
-Activates DND based on properties of an active calendar event. By default, this
-trigger searches for the text `DND` in the event's description. (Actually, this
-uses regex - if you have more advanced filtering needs, don't hesitate to
-customize it!)
-
-For example, if you want to activate DND during a weekly meeting, just create a
-repeating event in Google Calendar with `DND` in the description somewhere.
-This profile will trigger when the event begins, and deactivate again when it
-ends.
-
 ### Volume Button DND Toggle (Profile)
 
 Toggles DND when you press and hold either volume button (customizable, see
@@ -140,6 +128,13 @@ desired!
   active, for example weekdays in September through May. `Profiles > Custom DND
   > [fourth trigger, calendar icon]`
 
+### Calendar DND
+
+- Calendar Entry: Properties of calendar entries for which DND should activate.
+  Filter options are: event title, location, description, availability state,
+  and the calendar in which the event exists. `Profiles > Calendar DND > [only
+  trigger, half-shaded circle icon]`
+
 ### Reload DND (Quick Settings tile)
 
 - Quick Tile Icon: The icon that represents this task in Quick Settings. `Tasks
@@ -147,13 +142,6 @@ desired!
 - Quick Tile Location: The Quick Settings tile can be moved around in your
   Quick Settings sheet. See the __Quick Tile Setup__ section, above, for
   relevant instructions.
-
-### Calendar DND
-
-- Calendar Entry: Properties of calendar entries for which DND should activate.
-  Filter options are: event title, location, description, availability state,
-  and the calendar in which the event exists. `Profiles > Calendar DND > [only
-  trigger, half-shaded circle icon]`
 
 ### Volume Button DND Toggle
 
