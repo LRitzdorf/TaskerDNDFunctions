@@ -125,8 +125,8 @@ desired!
 - Times: The time range over which DND should be active, for example 9:00 AM to
   5:00 PM (default). `Profiles > Custom DND > [third trigger, clock icon]`
 - Months/Days: The months and days of the week during which DND should be
-  active, for example weekdays in September through May. `Profiles > Custom DND
-  > [fourth trigger, calendar icon]`
+  active, for example weekdays in September through May. `Profiles > Custom
+  DND > [fourth trigger, calendar icon]`
 
 ### Calendar DND
 
@@ -137,8 +137,8 @@ desired!
 
 ### Reload DND (Quick Settings tile)
 
-- Quick Tile Icon: The icon that represents this task in Quick Settings. `Tasks
-  > Reload DND > [reload icon at bottom center]`
+- Quick Tile Icon: The icon that represents this task in Quick Settings.
+  `Tasks > Reload DND > [reload icon at bottom center]`
 - Quick Tile Location: The Quick Settings tile can be moved around in your
   Quick Settings sheet. See the __Quick Tile Setup__ section, above, for
   relevant instructions.
@@ -156,8 +156,9 @@ desired!
 - Watch Companion App: If your smartwatch allows you to change your *phone's*
   volume level, this may work. Choose the package name of the app that your
   watch uses to sync with your phone (e.g. Garmin Connect Mobile is
-  `com.garmin.android.apps.connectmobile`). `Profiles > Watch Volume DND Toggle
-  > [bell icon trigger] > Filter` (change the package name following `caller=`)
+  `com.garmin.android.apps.connectmobile`). `Profiles > Watch Volume DND
+  Toggle > [bell icon trigger] > Filter` (change the package name following
+  `caller=`)
     - This profile was created and tested on Android 8 using Garmin Connect
       Mobile. It does not seem to work on Android 11. This profile is best for
       users who are comfortable playing with settings until something works.
